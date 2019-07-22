@@ -6,6 +6,5 @@ GUI is developed with java and can be modified to use other communication method
 
 Communication with Bus Pirate happens with python scripts. Which are executed from java. This method offers easy modifications for other communication methods.
 
-Setup
-
+Setup:
 In order to eTool to work you have to update python script paths in conficuration file.
