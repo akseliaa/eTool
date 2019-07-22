@@ -1,0 +1,24 @@
+<config>
+	<common>
+		<function name="modeSelect" path="C:/Users/Akseli/Documents/etool/python/modeSelect.py"></function>
+		<function name="powerSelect" path="C:/Users/Akseli/Documents/etool/python/powerSelect.py"></function>
+		<parameter name="power">
+			<option name="ext (or none)" value="ext"></option>
+			<option name="3v3" value="3v3"></option>
+			<option name="5v" value="5v"></option>
+		</parameter>
+	</common>
+	<mode name="i2c" value="4" prefix="m">
+		<function name="addressRead" path="C:/Users/Akseli/Documents/etool/python/i2cAddressRead.py"></function>
+		<function name="dataRead" path="C:/Users/Akseli/Documents/etool/python/i2cDataRead.py"></function>
+		<parameter name="I2C mode" prefix="a">
+			<option name="software" value="1"></option>
+			<option name="hardware" value="2"></option>
+		</parameter>
+		<parameter name="speed" prefix="b">
+			<option name="100KHz" value="1"></option>
+			<option name="400KHz" value="2"></option>
+			<option name="1MHz" value="3"></option>
+		</parameter>
+	</mode>
+</config>
