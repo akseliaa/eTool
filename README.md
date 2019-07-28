@@ -1,3 +1,5 @@
+ATTENTION: eTool software is under development
+
 eTool is software developed for Bus Pirate v3.6. It offers easy to use GUI to read EEPROM memory chips over i2c.
 
 It also can be easily modified to use other communication methods ex. SPI.
@@ -8,3 +10,5 @@ Communication with Bus Pirate happens with python scripts. Which are executed fr
 
 Setup:
 In order to eTool to work you have to update python script paths in conficuration file.
+
+Written by Akseli Alapeltola
